@@ -1,7 +1,73 @@
 {
-  "title": "Database Awal",
-  "items": [
-    { "id": 1, "name": "Pemeriksaan awal", "status": "siap" },
-    { "id": 2, "name": "Konsultasi dokter", "status": "siap" }
+  "title": "Database Awal Telehealth",
+  "updatedAt": "2026-07-01",
+  "doctors": [
+    {
+      "id": "doc-001",
+      "name": "dr. Anisa Putri, Sp.OG",
+      "specialization": "Kebidanan dan Kandungan"
+    },
+    {
+      "id": "doc-002",
+      "name": "dr. Bima Prasetyo, Sp.PD",
+      "specialization": "Penyakit Dalam"
+    },
+    {
+      "id": "doc-003",
+      "name": "dr. Citra Maharani, Sp.A",
+      "specialization": "Anak"
+    }
+  ],
+  "medicines": [
+    {
+      "id": "med-001",
+      "name": "Paracetamol",
+      "genericName": "Paracetamol",
+      "category": "Analgesik & antipiretik",
+      "indication": "Meredakan demam dan nyeri ringan sampai sedang"
+    },
+    {
+      "id": "med-002",
+      "name": "Amoxicillin",
+      "genericName": "Amoxicillin",
+      "category": "Antibiotik",
+      "indication": "Mengatasi infeksi bakteri ringan sampai sedang"
+    },
+    {
+      "id": "med-003",
+      "name": "Omeprazole",
+      "genericName": "Omeprazole",
+      "category": "Penghambat asam lambung",
+      "indication": "Membantu mengurangi gejala maag dan asam lambung"
+    }
+  ],
+  "firstAidGuides": [
+    {
+      "id": "p3k-001",
+      "title": "Penanganan luka gores ringan",
+      "steps": [
+        "Cuci tangan sebelum menyentuh luka.",
+        "Bersihkan luka dengan air bersih atau cairan saline.",
+        "Keringkan area sekitar luka dan tutup dengan perban steril."
+      ]
+    },
+    {
+      "id": "p3k-002",
+      "title": "Penanganan demam pada anak",
+      "steps": [
+        "Berikan cairan yang cukup.",
+        "Kompres hangat pada dahi dan ketiak.",
+        "Jika demam tinggi atau berlangsung lebih dari 3 hari, segera konsultasi dokter."
+      ]
+    },
+    {
+      "id": "p3k-003",
+      "title": "Penanganan mimisan",
+      "steps": [
+        "Duduk tegak dan condongkan badan sedikit ke depan.",
+        "Tekan bagian lunak hidung selama 10-15 menit.",
+        "Jika mimisan berulang, segera periksa ke fasilitas kesehatan."
+      ]
+    }
   ]
 }
