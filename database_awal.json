@@ -1,0 +1,7 @@
+{
+  "title": "Database Awal",
+  "items": [
+    { "id": 1, "name": "Pemeriksaan awal", "status": "siap" },
+    { "id": 2, "name": "Konsultasi dokter", "status": "siap" }
+  ]
+}
