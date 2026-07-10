@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
-  base: '/HEALTHAPP-TUGAS/',
+  base: '/',
   plugins: [
     react(),
     VitePWA({
@@ -17,8 +17,8 @@ export default defineConfig({
         background_color: '#f0fdfa',
         display: 'standalone',
         orientation: 'portrait-primary',
-        start_url: '/HEALTHAPP-TUGAS/',
-        scope: '/HEALTHAPP-TUGAS/',
+        start_url: '/',
+        scope: '/',
         icons: [
           {
             src: 'favicon.svg',
